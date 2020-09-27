@@ -62,7 +62,7 @@ body {
 /* Filme Principal */
 
 .filme-principal {
-    background: linear-gradient(77deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%), url("/img/top-background.png");
+    background: linear-gradient(77deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 85%), url("../img/top-background.png");
     background-size: cover;
     height: 50.25vw;
     width: 100%;
@@ -107,4 +107,10 @@ body {
     padding: 10px;
     border-radius: 5px;
     border: none;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
